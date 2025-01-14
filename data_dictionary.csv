@@ -1,0 +1,61 @@
+ColumnName,Descripcion,Description
+acc_now_delinq,El número de cuentas en las que el prestatario está ahora en mora.,The number of accounts on which the borrower is now delinquent.
+addr_state,El estado proporcionado por el prestatario en la solicitud de préstamo,The state provided by the borrower in the loan application
+annual_inc,Los ingresos anuales autodeclarados proporcionados por el prestatario durante el registro.,The self-reported annual income provided by the borrower during registration.
+application_type,Indica si el préstamo es una solicitud individual o una solicitud conjunta con dos coprestatarios,Indicates whether the loan is an individual application or a joint application with two co-borrowers
+chargeoff_within_12_mths,Número de cancelaciones en 12 meses,Number of charge-offs within 12 months
+collection_recovery_fee,tasa de cobro post cargo,post charge off collection fee
+collections_12_mths_ex_med,Número de cobros en 12 meses excluyendo cobros médicos,Number of collections in 12 months excluding medical collections
+debt_settlement_flag,"Indica si el prestatario, que ha cancelado, está trabajando con una empresa de liquidación de deudas.","Flags whether or not the borrower, who has charged-off, is working with a debt-settlement company."
+debt_settlement_flag_date,La fecha más reciente en la que se ha establecido Debt_Settlement_Flag,The most recent date that the Debt_Settlement_Flag has been setÂ Â 
+delinq_2yrs,El número de incidencias de morosidad de más de 30 días en el archivo de crédito del prestatario durante los últimos 2 años,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years
+delinq_amnt,El monto vencido adeudado por las cuentas en las que el prestatario ahora está en mora.,The past-due amount owed for the accounts on which the borrower is now delinquent.
+disbursement_method,"El método por el cual el prestatario recibe su préstamo. Los valores posibles son: EFECTIVO, DIRECT_PAY","The method by which the borrower receives their loan. Possible values are: CASH, DIRECT_PAY"
+dti,"Una relación calculada utilizando los pagos de deuda mensuales totales del prestatario sobre las obligaciones de deuda totales, excluyendo la hipoteca y el préstamo de LC solicitado, dividido por los ingresos mensuales autoinformados del prestatario.","A ratio calculated using the borrowerâ€™s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrowerâ€™s self-reported monthly income."
+earliest_cr_line,El mes en que se abrió la primera línea de crédito informada del prestatario,The month the borrower's earliest reported credit line was opened
+emp_length,"Duración del empleo en años. Los valores posibles están entre 0 y 10, donde 0 significa menos de un año y 10 significa diez o más años.",Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years. 
+emp_title,El título del trabajo proporcionado por el Prestatario al solicitar el préstamo.*,The job title supplied by the Borrower when applying for the loan.*
+funded_amnt,La cantidad total comprometida con ese préstamo en ese momento.,The total amount committed to that loan at that point in time.
+funded_amnt_inv,El monto total comprometido por los inversionistas para ese préstamo en ese momento.,The total amount committed by investors for that loan at that point in time.
+grade,Grado de préstamo asignado LC,LC assigned loan grade
+hardship_flag,Marca si el prestatario está o no en un plan de dificultades,Flags whether or not the borrower is on a hardship plan
+home_ownership,"El estado de propiedad de la vivienda proporcionado por el prestatario durante el registro u obtenido del informe de crédito. Nuestros valores son: ALQUILER, PROPIO, HIPOTECA, OTROS","The home ownership status provided by the borrower during registrationÂ or obtained from the credit report.Â Our values are: RENT, OWN, MORTGAGE, OTHER"
+initial_list_status,"El estado de cotización inicial del préstamo. Los valores posibles son – W, ??F","The initial listing status of the loan. Possible values are â€“ W, F"
+inq_last_6mths,El número de consultas en los últimos 6 meses (excluyendo consultas sobre automóviles e hipotecas),The number of inquiries in past 6 months (excluding auto and mortgage inquiries)
+installment,El pago mensual adeudado por el prestatario si se origina el préstamo.,The monthly payment owed by the borrower if the loan originates.
+int_rate,Tasa de interés del préstamo,Interest Rate on the loan
+issue_d,El mes en que se financió el préstamo.,The month which the loan was funded
+last_credit_pull_d,"El mes más reciente, LC sacó crédito para este préstamo",The most recent month LC pulled credit for this loan
+last_pymnt_amnt,Importe del último pago total recibido,Last total payment amount received
+last_pymnt_d,Se recibió el pago del último mes,Last month payment was received
+loan_amnt,"El monto indicado del préstamo solicitado por el prestatario. Si en algún momento, el departamento de crédito reduce el monto del préstamo, se reflejará en este valor.","The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value."
+loan_status,Estado actual del préstamo,Current status of the loan
+mths_since_last_delinq,El número de meses desde la última morosidad del prestatario.,The number of months since the borrower's last delinquency.
+mths_since_last_major_derog,Meses desde la calificación más reciente de 90 días o peor,Months since most recent 90-day or worse rating
+mths_since_last_record,El número de meses desde el último registro público.,The number of months since the last public record.
+next_pymnt_d,Próxima fecha de pago programada,Next scheduled payment date
+open_acc,El número de líneas de crédito abiertas en el archivo de crédito del prestatario.,The number of open credit lines in the borrower's credit file.
+out_prncp,Capital restante pendiente por el monto total financiado,Remaining outstanding principal for total amount funded
+out_prncp_inv,Principal pendiente restante por parte del monto total financiado por los inversores,Remaining outstanding principal for portion of total amount funded by investors
+policy_code,"policy_code disponible públicamente = 1
+nuevos productos no disponibles públicamente policy_code=2","publicly available policy_code=1
+new products not publicly available policy_code=2"
+pub_rec,Número de registros públicos despectivos,Number of derogatory public records
+pub_rec_bankruptcies,Número de quiebras de registros públicos,Number of public record bankruptcies
+purpose,Una categoría proporcionada por el prestatario para la solicitud de préstamo.,A category provided by the borrower for the loan request. 
+pymnt_plan,Indica si se ha establecido un plan de pago para el préstamo,Indicates if a payment plan has been put in place for the loan
+recoveries,descontar la recuperación bruta,post charge off gross recovery
+revol_bal,Saldo rotatorio de crédito total,Total credit revolving balance
+revol_util,"Tasa de utilización de la línea renovable, o la cantidad de crédito que el prestatario está utilizando en relación con todo el crédito renovable disponible.","Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit."
+sub_grade,Subgrado de préstamo asignado LC,LC assigned loan subgrade
+tax_liens,Número de gravámenes fiscales,Number of tax liens
+term,El número de pagos del préstamo. Los valores están expresados ??en meses y pueden ser 36 o 60.,The number of payments on the loan. Values are in months and can be either 36 or 60.
+title,El título del préstamo proporcionado por el prestatario.,The loan title provided by the borrower
+total_acc,El número total de líneas de crédito actualmente en el archivo de crédito del prestatario,The total number of credit lines currently in the borrower's credit file
+total_pymnt,Pagos recibidos hasta la fecha por el monto total financiado,Payments received to date for total amount funded
+total_pymnt_inv,Pagos recibidos hasta la fecha por parte del monto total financiado por los inversores,Payments received to date for portion of total amount funded by investors
+total_rec_int,Intereses recibidos hasta la fecha,Interest received to date
+total_rec_late_fee,Cargos por mora recibidos hasta la fecha,Late fees received to date
+total_rec_prncp,Principal recibido a la fecha,Principal received to date
+verification_status,"Indica si los ingresos fueron verificados por LC, no verificados o si la fuente de ingresos fue verificada","Indicates if income was verified by LC, not verified, or if the income source was verified"
+zip_code,Los primeros 3 números del código postal proporcionado por el prestatario en la solicitud de préstamo.,The first 3 numbers of the zip code provided by the borrower in the loan application.
